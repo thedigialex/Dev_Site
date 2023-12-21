@@ -14,7 +14,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li,
+        a {
+            opacity: 0.925;
+        }
+
+        /* Default styles for the div */
+    </style>
 </head>
+
 <body class="antialiased" style="background-image: linear-gradient(to bottom, #B4FEE7, #FEE7B4);">
     <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div class="lg:flex lg:justify-between lg:gap-4">
@@ -37,9 +52,7 @@
                             </li>
                             <li>
                                 <a class="group flex items-center py-3 active" href="#projects">
-                                    <span class="nav-text text-xs font-bold uppercase">Projects
-
-                                    </span>
+                                    <span class="nav-text text-xs font-bold uppercase">Projects</span>
                                 </a>
                             </li>
                         </ul>
@@ -85,8 +98,8 @@
                     <div>
                         <ol class="group/list">
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
+                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 p-4 hover-div bg-transparent rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-gray-500 hover:bg-opacity-50">
+                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
                                             <div>
@@ -99,33 +112,35 @@
                                         <p class="mt-2 text-sm leading-normal">In my role as a Mobile/Web Application Developer, I have been dedicated to delivering high-quality, robust production code for a diverse portfolio of projects. My work serves a wide range of esteemed clients, potentially including prestigious pharacmacy stores, healthcare companies, and impactful non-profits.</p>
                                         <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">PHP</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">
+                                                    PHP
+                                                </div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Vue</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Vue</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Symfony</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Symfony</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">React</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">React</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Bootstrap</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Bootstrap</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Doctrine</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Doctrine</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">WordPress</div>
+                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">WordPress</div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
+                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ">
+                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
                                             <div>
@@ -163,8 +178,8 @@
                                 </div>
                             </li>
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2" aria-label="2018 to Present">2022 — October 2022</header>
+                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ">
+                                    <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — October 2022</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
                                             <div>
@@ -248,4 +263,5 @@
         </div>
     </div>
 </body>
+
 </html>
