@@ -11,6 +11,7 @@ export default {
         'skillBackground': '#82A8FD',
         'skillText': '#e5fff7',
         'hoverBackground': '#fef3d9',
+        'skillTitle': '#5085FC',
       },
       fontFamily: {
         sans: ['Red Hat Display', 'sans-serif'],
@@ -19,4 +20,3 @@ export default {
   },
   plugins: [],
 }
-
