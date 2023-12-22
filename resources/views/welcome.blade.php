@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    @vite('resources/css/app.css')
     <title>Alejandro Martinez</title>
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
@@ -24,15 +24,16 @@
         li,
         a {
             opacity: 0.925;
+            font-family: 'Red Hat Display', sans-serif; 
         }
 
         /* Default styles for the div */
     </style>
 </head>
 
-<body class="antialiased" style="background-image: linear-gradient(to bottom, #B4FEE7, #FEE7B4);">
+<body class="antialiased " style="background-image: linear-gradient(to bottom, #B4FEE7, #FEE7B4);">
     <div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
-        <div class="lg:flex lg:justify-between lg:gap-4">
+        <div class="bg-custom-blue lg:flex lg:justify-between lg:gap-4">
             <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
                 <div>
                     <h1 class="text-4xl font-bold sm:text-5xl">Alejandro Martinez</h1>
@@ -98,7 +99,7 @@
                     <div>
                         <ol class="group/list">
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 p-4 hover-div bg-transparent rounded-md cursor-pointer transition duration-300 ease-in-out hover:bg-gray-500 hover:bg-opacity-50">
+                                <div class="group experience-div hover:bg-hoverBackground">
                                     <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
@@ -112,34 +113,32 @@
                                         <p class="mt-2 text-sm leading-normal">In my role as a Mobile/Web Application Developer, I have been dedicated to delivering high-quality, robust production code for a diverse portfolio of projects. My work serves a wide range of esteemed clients, potentially including prestigious pharacmacy stores, healthcare companies, and impactful non-profits.</p>
                                         <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">
-                                                    PHP
-                                                </div>
+                                                <div class="skill-badge">PHP</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Vue</div>
+                                                <div class="skill-badge">Vue</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Symfony</div>
+                                                <div class="skill-badge">Symfony</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">React</div>
+                                                <div class="skill-badge">React</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Bootstrap</div>
+                                                <div class="skill-badge">Bootstrap</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">Doctrine</div>
+                                                <div class="skill-badge">Doctrine</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex items-center bg-gray-300 rounded-md px-3 py-1 text-xs font-medium text-blue-500">WordPress</div>
+                                                <div class="skill-badge">WordPress</div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ">
+                                <div class="group experience-div hover:bg-hoverBackground">
                                     <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — Present</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
@@ -153,32 +152,32 @@
                                         <p class="mt-2 text-sm leading-normal">My responsibilities will extend beyond mere technical support, as I will take on a leadership role within the support department. This will involve closely collaborating with team members, sharing knowledge, and offering mentorship to foster a dynamic and productive work environment. Leveraging my technical expertise in areas such as CMS, SEO, and website maintenance, along with my familiarity with web development languages like HTML, CSS, and JavaScript, I will ensure the effective resolution of client issues and the continuous improvement of our support services.</p>
                                         <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Responsive</div>
+                                                <div class="skill-badge">Responsive</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Maintenance</div>
+                                                <div class="skill-badge">Maintenance</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Hosting</div>
+                                                <div class="skill-badge">Hosting</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Prioritization</div>
+                                                <div class="skill-badge">Prioritization</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Empathy</div>
+                                                <div class="skill-badge">Empathy</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Mentorship</div>
+                                                <div class="skill-badge">Mentorship</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Risk-Management</div>
+                                                <div class="skill-badge">Risk-Management</div>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
                             <li class="mb-12">
-                                <div class="group relative grid pb-1 sm:grid-cols-8 sm:gap-8 md:gap-4 ">
+                                <div class="group experience-div hover:bg-hoverBackground">
                                     <header class="z-10 mb-2 mt-1 text-xs font-semibold uppercase sm:col-span-2" aria-label="2018 to Present">2022 — October 2022</header>
                                     <div class="z-10 sm:col-span-6">
                                         <h3 class="font-medium leading-snug">
@@ -192,25 +191,25 @@
                                         <p class="mt-2 text-sm leading-normal">As a Support Developer, my responsibilities will encompass a blend of technical proficiency and collaborative problem-solving. I will actively engage in diagnosing and resolving complex technical issues, leveraging my expertise in web development languages such as HTML, CSS, JavaScript, and PHP. My role will be crucial in maintaining the functionality and performance of web applications, ensuring responsiveness and cross-browser compatibility.</p>
                                         <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Debugging</div>
+                                                <div class="skill-badge">Debugging</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Communication</div>
+                                                <div class="skill-badge">Communication</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Collaboration</div>
+                                                <div class="skill-badge">Collaboration</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">API Integration</div>
+                                                <div class="skill-badge">API Integration</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Security</div>
+                                                <div class="skill-badge">Security</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">Adaptability</div>
+                                                <div class="skill-badge">Adaptability</div>
                                             </li>
                                             <li class="mr-1.5 mt-2">
-                                                <div class="flex px-3 py-1 text-xs font-medium">User Experience</div>
+                                                <div class="skill-badge">User Experience</div>
                                             </li>
                                         </ul>
                                     </div>

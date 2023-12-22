@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skill-badge {
+    @apply flex items-center bg-skillBackground rounded-md px-3 py-1 text-xs font-medium text-skillText;
+}
+.experience-div {
+    @apply relative grid gap-4 p-4 bg-transparent rounded-md transition-all duration-300 ease-in-out;
+}
+@media (min-width: 768px) {
+    .experience-div {
+        @apply gap-8;
+    }
+}
+@media (min-width: 1024px) {
+    .experience-div {
+        @apply gap-4;
+    }
+}
+
