@@ -8,10 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'skillBackground': '#82A8FD',
-        'skillText': '#e5fff7',
-        'hoverBackground': '#fef3d9',
-        'skillTitle': '#5085FC',
+        'hoverBackground': '#aa73a8',
+        'hoverText': '#e8872e',
       },
       fontFamily: {
         sans: ['Red Hat Display', 'sans-serif'],
