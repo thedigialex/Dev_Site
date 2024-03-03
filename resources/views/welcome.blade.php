@@ -16,10 +16,10 @@
 
 <body class="antialiased" style="background-image: linear-gradient(to bottom, #67e8f9 , #d1fae5 );">
     <div id="dot-container" class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
-        <div class="bg-custom-blue lg:flex lg:justify-between lg:gap-4">
-            <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-                <div>
-                    <h1 class="text-6xl font-bold text-sky-700  text-center">Hi, I'm Alex!</h1>
+        <div class="bg-custom-blue lg:flex lg:justify-between lg:gap-4 ">
+            <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 animate-enterAnimation">
+                <div class="">
+                    <h1 class="text-6xl font-bold text-sky-700  text-center ">Hi, I'm Alex!</h1>
                     <div class=" rounded-lg overflow-hidden">
                         <div class="p-4 text-center">
                             <div class="inline-block">
@@ -84,249 +84,229 @@
             </header>
             <main id="content" class="pt-24 lg:w-1/2 lg:py-24 ">
                 <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 section" aria-label="About me">
-                    <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg">About</h2>
-                    <div class="p-4">
+                    <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg animate-fadeInFromLeft">About</h2>
+                    <div class="p-4 animate-enterAnimation">
                         <p class="mb-4 text-lg text-sky-600">In 2014, I embarked on an academic journey at the <span class="text-sky-700 font-bold">University of Kentucky, majoring in Computer Science.</span> My academic pursuits were further enriched by minoring in Computer Engineering and Mathematics, a decision influenced by the significant overlap in coursework. My profound passion for programming was ignited when a favorite game of mine was discontinued, inspiring me to reconstruct it from scratch. This project was a pivotal moment in my career, laying the foundation for my future endeavors.</p>
                         <p class="mb-4 text-lg text-sky-600">Currently, I am dedicated to enhancing and maintaining client websites in my role. My career trajectory began as a Support Developer, quickly advancing to a Managerial position, and eventually evolving into a <span class="text-sky-700 font-bold">Full Web Developer role.</span> My commitment to professional growth is paralleled by my personal dedication to continuous learning. </p>
                         <p class="mb-4 text-lg text-sky-600">In my leisure time, I immerse myself in various projects, constantly seeking new opportunities to broaden my technical expertise and knowledge.</p>
                     </div>
                 </section>
                 <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 section" aria-label="Work experience">
-                    <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg">Experience</h2>
+                    <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg animate-fadeInFromLeft">Experience</h2>
                     <div>
                         <ol class="group/list">
                             <li class="mb-12">
-                                <div class="group experience-div ">
-                                    <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
-                                    <div class="sm:col-span-6">
-                                        <h3 class="font-bold uppercase leading-snug">
-                                            <div>
-                                                <a href="https://elinkdesign.com/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
-                                                    <span class="experience-title">Web Developer · eLink Design
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </h3>
-                                        <p class="mt-2 text-base leading-normal text-sky-600">Responsible for managing the software development lifecycle, from requirements to deployment, while prioritizing the development of advanced features for intuitive user experiences. I utilize frameworks such as Vue.js, WordPress, and Laravel to create scalable web applications. Additionally, I play a key role in enhancing website design, maintenance, SEO, and mobile/web development.</p>
-                                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">PHP</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">SQL</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">Laravel</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">Vue</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">API Intergration</div>
-                                            </li>
-                                        </ul>
+                                <a href="https://elinkdesign.com/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">Web Developer · eLink Design</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">Responsible for managing the software development lifecycle, from requirements to deployment, while prioritizing the development of advanced features for intuitive user experiences. I utilize frameworks such as Vue.js, WordPress, and Laravel to create scalable web applications. Additionally, I play a key role in enhancing website design, maintenance, SEO, and mobile/web development.</p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">PHP</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">SQL</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Laravel</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Vue</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">API Intergration</div>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </li>
                             <li class="mb-12">
-                                <div class="group experience-div ">
-                                    <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
-                                    <div class="sm:col-span-6">
-                                        <h3 class="font-bold uppercase leading-snug">
-                                            <div>
-                                                <a href="https://www.intelliwire.net/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
-                                                    <span class="experience-title">System Administrator · Intelliwire
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </h3>
-                                        <p class="mt-2 text-base leading-normal text-sky-600">Responsible for optimizing server infrastructure, ensuring optimal performance, reliability, and security across all hosted services. I tailor configurations to meet unique client needs, maximizing website efficiency. Intelliwire serves as a crucial partner to eLink Design, providing a robust hosting platform for their websites and offering a wide range of hosting solutions.</p>
-                                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">Ubuntu</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">cPanel</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">Email</div>
-                                            </li>
-                                            <li class="mr-1.5 mt-2">
-                                                <div class="skill-badge">DNS</div>
-                                            </li>
+                                <a href="https://www.intelliwire.net/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">System Administrator · Intelliwire</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">Responsible for optimizing server infrastructure, ensuring optimal performance, reliability, and security across all hosted services. I tailor configurations to meet unique client needs, maximizing website efficiency. Intelliwire serves as a crucial partner to eLink Design, providing a robust hosting platform for their websites and offering a wide range of hosting solutions.</p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Ubuntu</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">cPanel</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Email</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">DNS</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Risk-Management</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            <li class="mr-1.5 mt-2">
-                                <div class="skill-badge">Risk-Management</div>
+                            <li class="mb-12">
+                                <a href="https://elinkdesign.com/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">Support Manager · eLink Design</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">Oversee customer support for new and ongoing projects, ensuring seamless handling of updates post-launch. Leading the support team, I leverage my technical expertise and leadership skills to effectively resolve customer issues. Collaborating with cross-functional teams, I continuously strive to improve and enhance the user experience.</p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Leadership</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Mentorship</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Prioritization</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Communication</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Adaptability</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
                             </li>
-                            </ul>
-                    </div>
-        </div>
-        </li>
-        <li class="mb-12">
-            <div class="group experience-div ">
-                <header class="mb-2 mt-1 text-xs font-bold uppercase sm:col-span-2 text-sky-600">2022 — Present</header>
-                <div class="sm:col-span-6">
-                    <h3 class="font-bold uppercase leading-snug">
-                        <div>
-                            <a href="https://elinkdesign.com/" target="_blank" rel="noreferrer noopener" aria-label="Web Developer at eLink Design (opens in a new tab)">
-                                <span class="experience-title">Support Manager · eLink Design
-                                </span>
+                        </ol>
+                        <div class="mt-12">
+                            <a class="leading-tight font-semibold text-sky-700 hover:text-sky-600" aria-label="View Full Resume" href="https://thedigialex.com/wp-content/uploads/2024/03/Resume.pdf">
+                                <span>View Full Resume</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
+                                </svg>
                             </a>
                         </div>
-                    </h3>
-                    <p class="mt-2 text-base leading-normal text-sky-600">Oversee customer support for new and ongoing projects, ensuring seamless handling of updates post-launch. Leading the support team, I leverage my technical expertise and leadership skills to effectively resolve customer issues. Collaborating with cross-functional teams, I continuously strive to improve and enhance the user experience.</p>
-                    <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                        <li class="mr-1.5 mt-2">
-                            <div class="skill-badge">Leadership</div>
-                        </li>
-                        <li class="mr-1.5 mt-2">
-                            <div class="skill-badge">Mentorship</div>
-                        </li>
-                        <li class="mr-1.5 mt-2">
-                            <div class="skill-badge">Prioritization</div>
-                        </li>
-                        <li class="mr-1.5 mt-2">
-                            <div class="skill-badge">Communication</div>
-                        </li>
-                        <li class="mr-1.5 mt-2">
-                            <div class="skill-badge">Adaptability</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        </ol>
-        <div class="mt-12">
-            <a class="leading-tight font-semibold text-sky-700 hover:text-sky-600" aria-label="View Full Resume" href="https://thedigialex.com/wp-content/uploads/2023/12/Resume.pdf">
-                <span>View Full Resume</span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
-                </svg>
-            </a>
+                    </div>
+                </section>
+                <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 section" aria-label="Selected projects">
+                    <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg animate-fadeInFromLeft">Projects</h2>
+                    <div>
+                        <ul class="group/list">
+                            <li class="mb-12">
+                                <a href="https://play.google.com/store/apps/details?id=digialex.digitalpet&hl=en&gl=US" target="_blank" rel="noreferrer noopener" aria-label="Google Play Link (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/digital-pet-logo.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">Digital Pet</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">Digital Pet is a virtual pet app that allows users to take care of their own Digital Monster. With Digital Pet, users can choose from a variety of pets that evolve based on how a user cares for them. To keep their Digital Monster happy and healthy, users must feed them, play with them, and BATTLE with them! Users can also earn in-game currency by completing tasks, which they can then use to buy new items and accessories for their Digital Monster.</p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Java</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">XML</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Android Studio</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Play Console</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">FireBase</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-12">
+                                <a href="https://play.google.com/store/apps/details?id=digialex.websitechecker&hl=en&gl=US" target="_blank" rel="noreferrer noopener" aria-label="Google Play Link (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/website_logo.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">Website Checker</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">Website Checker, a powerful tool designed for effortless website analysis. With its user-friendly interface, users can input multiple website URLs to swiftly assess their response codes. But that’s not all – the app goes above and beyond by enabling users to integrate their Google Analytics key. This integration empowers users to comprehensively evaluate their website’s SEO performance, page speed, and accessibility. </p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Lighthouse API</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Google Console</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Lighthouse API</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">XML</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">SQLite</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-12">
+                                <a href="https://recipe.thedigialex.net/login/?redirect_to=https%3A%2F%2Frecipe.thedigialex.net%2F" target="_blank" rel="noreferrer noopener" aria-label="Recipe Website Link (opens in a new tab)">
+                                    <div class="group experience-div hover:scale-105 hover:bg-sky-200 transition duration-300">
+                                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/recipe-book-site.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
+                                        <div class="sm:col-span-6">
+                                            <h3 class="font-bold uppercase leading-snug">
+                                                <span class="experience-title">Recipe Book</span>
+                                            </h3>
+                                            <p class="mt-2 text-base leading-normal text-sky-600">This WordPress site is a specialized platform to hold family recipes, featuring a robust user authentication system for secure access. It utilizes post type exclusively for recipes, ensuring a unique and organized presentation. Users can submit and modify their own recipes through an intuitive interface, and these submissions are displayed using custom templates. While the backend is managed through a contact form plugin connected with custom functions.</p>
+                                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">PHP</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">JavaScript</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">SQL</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">Authentication</div>
+                                                </li>
+                                                <li class="mr-1.5 mt-2">
+                                                    <div class="skill-badge">WordPress</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mt-12">
+                            <a class="leading-tight font-semibold text-sky-700 hover:text-sky-600" aria-label="View Projects" href="https://thedigialex.com/projects/">
+                                <span>View More Projects</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <footer class="max-w-md pb-16">
+                    <p class="text-sky-600">&copy; 2024 <span class="font-semibold">TheDigiAlex</span></p>
+                    <p class="text-sky-600">Hosted by <a href="https://thedigitalex.com">TheDigiAlex</a></p>
+                </footer>
+            </main>
         </div>
-    </div>
-    </section>
-    <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 section" aria-label="Selected projects">
-        <h2 class="text-sky-700 font-bold uppercase pb-4 text-lg">Projects</h2>
-        <div>
-            <ul class="group/list">
-                <li class="mb-12">
-                    <div class="group experience-div ">
-                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/digital-pet-logo.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
-                        <div class="sm:col-span-6">
-                            <h3 class="font-bold uppercase leading-snug">
-                                <div>
-                                    <a href="https://play.google.com/store/apps/details?id=digialex.digitalpet&hl=en&gl=US" target="_blank" rel="noreferrer noopener" aria-label="Google Play Link (opens in a new tab)">
-                                        <span class="experience-title">Digital Pet · Android App
-                                        </span>
-                                    </a>
-                                </div>
-                            </h3>
-                            <p class="mt-2 text-base leading-normal text-sky-600">Digital Pet is a virtual pet app that allows users to take care of their own Digital Monster. With Digital Pet, users can choose from a variety of pets that evolve based on how a user cares for them. To keep their Digital Monster happy and healthy, users must feed them, play with them, and BATTLE with them! Users can also earn in-game currency by completing tasks, which they can then use to buy new items and accessories for their Digital Monster.</p>
-                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Java</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">XML</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Android Studio</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Play Console</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">FireBase</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="mb-12">
-                    <div class="group experience-div ">
-                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/website_logo.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
-                        <div class="sm:col-span-6">
-                            <h3 class="font-bold uppercase leading-snug">
-                                <div>
-                                    <a href="https://play.google.com/store/apps/details?id=digialex.websitechecker&hl=en&gl=US" target="_blank" rel="noreferrer noopener" aria-label="Google Play Link (opens in a new tab)">
-                                        <span class="experience-title">Website Checker · Android App
-                                        </span>
-                                    </a>
-                                </div>
-                            </h3>
-                            <p class="mt-2 text-base leading-normal text-sky-600">Website Checker, a powerful tool designed for effortless website analysis. With its user-friendly interface, users can input multiple website URLs to swiftly assess their response codes. But that’s not all – the app goes above and beyond by enabling users to integrate their Google Analytics key. This integration empowers users to comprehensively evaluate their website’s SEO performance, page speed, and accessibility. </p>
-                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Lighthouse API</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Google Console</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Lighthouse API</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">XML</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">SQLite</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="mb-12">
-                    <div class="group experience-div ">
-                        <img class="mb-2 mt-1 sm:col-span-2 rounded" src="{{ asset('images/recipe-book-site.png') }}" alt="Place holder" loading="lazy" width="200" height="48" decoding="async" data-nimg="1">
-                        <div class="sm:col-span-6">
-                            <h3 class="font-bold uppercase leading-snug">
-                                <div>
-                                    <a href="https://recipe.thedigialex.net/login/?redirect_to=https%3A%2F%2Frecipe.thedigialex.net%2F" target="_blank" rel="noreferrer noopener" aria-label="Recipe Website Link (opens in a new tab)">
-                                        <span class="experience-title">Recipe Book · WordPress
-                                        </span>
-                                    </a>
-                                </div>
-                            </h3>
-                            <p class="mt-2 text-base leading-normal text-sky-600">This WordPress site is a specialized platform to hold family recipes, featuring a robust user authentication system for secure access. It utilizes post type exclusively for recipes, ensuring a unique and organized presentation. Users can submit and modify their own recipes through an intuitive interface, and these submissions are displayed using custom templates. While the backend is managed through a contact form plugin connected with custom functions.</p>
-                            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">PHP</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">JavaScript</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">SQL</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">Authentication</div>
-                                </li>
-                                <li class="mr-1.5 mt-2">
-                                    <div class="skill-badge">WordPress</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </li>
-            </ul>
-            <div class="mt-12">
-                <a class="leading-tight font-semibold text-sky-700 hover:text-sky-600" aria-label="View Projects" href="https://thedigialex.com/projects/">
-                    <span>View More Projects</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-    <footer class="max-w-md pb-16">
-        <p class="text-sky-600">&copy; 2024 <span class="font-semibold">TheDigiAlex</span></p>
-        <p class="text-sky-600">Hosted by <a href="https://thedigitalex.com">TheDigiAlex</a></p>
-    </footer>
-    </main>
-    </div>
     </div>
 </body>
 
