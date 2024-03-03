@@ -2,23 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-a {
-    color: white;
-    font-family: 'Red Hat Display', sans-serif;
-}
 
 .skill-badge {
-    @apply flex items-center bg-hoverText rounded-md px-3 py-1 text-xs font-medium text-white font-bold;
+    @apply flex items-center bg-sky-700 rounded-md px-3 py-1 text-xs font-medium text-white font-bold;
 }
 
 .experience-title {
-    @apply text-lg font-bold text-white;
+    @apply text-lg font-bold text-sky-700;
 }
 
 .experience-div {
@@ -61,8 +51,8 @@ a {
 .dot {
     position: absolute;
     border-radius: 50%;
-    background-color: white;
-    opacity: 0.5;
+    background-color: #d1fae5;
+    opacity: 0.75;
     animation: sway 5s infinite alternate ease-in-out;
 }
 

@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 const targetId = entry.target.id;
                 navLinks.forEach(link => {
                     link.style.fontWeight = 'normal';
-                    link.style.color = 'white';
+                    link.style.color = '#0ea5e9'
                 });
                 const activeLink = document.querySelector(`a[href="#${targetId}"]`);
                 activeLink.style.fontWeight = 'bold';
-                activeLink.style.color = '#e8872e';
+                activeLink.style.color = '#0369a1';
             }
         });
     }, { threshold: 0.3 });
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('dot-container');
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 200; i++) {
         const dot = document.createElement('div');
         dot.classList.add('dot');
         const size = Math.random() * 5 + 2; 
